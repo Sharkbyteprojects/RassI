@@ -1,0 +1,15 @@
+{
+  "name": "rassi",
+  "version": "1.0.0",
+  "description": "Easy Play with GPIO Ports over HTTP for Starters",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "Sharkbyteprojects",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
