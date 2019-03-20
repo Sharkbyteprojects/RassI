@@ -6,6 +6,8 @@ module.exports = function render(gpios){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>GPIO Control</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <h1>GPIO Control</h1>

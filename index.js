@@ -4,6 +4,7 @@ const app = express();
 const morgan = require('morgan');
 const rawdate = require('./rawavail');
 
+app.use(express.static(__dirname + '/public'));
 app.use(morgan('common', { immediate: true }));
 app.get('/', (request, response) => response.redirect('/gpio'));
 app.use('/gpio', routingcontrol);
