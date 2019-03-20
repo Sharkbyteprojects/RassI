@@ -15,7 +15,7 @@ module.exports = function render(gpios){
         <thead><tr><th>GPIO Pin Number</th><th>Switches</th></tr><thead>
         <tbody>
         ${gpios
-        .map(gpios => `<tr><td>${gpios.id}</td><td><a href="/gpio/onoff/${gpios.id}"><button>Switch GPIO</button></a></td></tr>`)
+        .map(gpios => `<tr><td>${gpios.id}</td><td><a href="/gpio/#${gpios.id}"><button>Switch GPIO</button></a></td></tr>`)
         .join('')}
         </tbody>
         </table>
