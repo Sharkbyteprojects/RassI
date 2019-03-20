@@ -6,11 +6,11 @@ module.exports = function render(gpios){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>GPIO Control</title>
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="RASSI LOGO.svg">
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1>GPIO Control</h1>
+        <h1><img src="RASSI LOGO WITH RPI.svg" height="100"> GPIO Control</h1>
         <table>
         <thead><tr><th>GPIO Pin Number</th><th>Active</th><th>Switches</th></tr><thead>
         <tbody>
