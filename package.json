@@ -1,5 +1,5 @@
 {
-  "name": "rassi",
+  "name": "rassi-webserver_only",
   "version": "1.0.1",
   "description": "Easy Play with GPIO Ports over HTTP for Starters",
   "main": "index.js",
@@ -13,6 +13,5 @@
   "dependencies": {
     "express": "^4.16.4",
     "morgan": "^1.9.1",
-    "onoff": "^1.0.0"
   }
 }
