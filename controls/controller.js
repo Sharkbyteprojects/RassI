@@ -1,6 +1,9 @@
-const model= require('./model');
+const model = require('./model');
+const render = require('./html');
 function listAction(request, response){
-    response.send(model.getAll());
+    const gpi = model.getAll();
+    const body = render(gpi);
+    response.send(body);
 }
 module.exports = {
     listAction,
