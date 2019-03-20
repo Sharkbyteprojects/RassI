@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const express = require('express');
 const routingcontrol = require('./controls')
 const app = express();
