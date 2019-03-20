@@ -10,10 +10,10 @@ module.exports = function render(gpios){
     <body>
         <h1>GPIO Control</h1>
         <table>
-        <thead><tr><th>GPIO Pin Number</th><th>Switches</th></tr><thead>
+        <thead><tr><th>GPIO Pin Number</th><th>Active</th><th>Switches</th></tr><thead>
         <tbody>
         ${gpios
-        .map(gpios => `<tr><td>${gpios.id}</td></tr>`)
+        .map(gpios => `<tr><td>${gpios.id}</td><td>${gpios.active}</td></tr>`)
         .join('')}
         </tbody>
         </table>
