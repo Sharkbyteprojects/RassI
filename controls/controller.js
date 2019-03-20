@@ -10,5 +10,4 @@ function listAction(request, response){
 
 module.exports = {
     listAction,
-    onoff,
 };
