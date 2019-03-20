@@ -8,6 +8,10 @@ You can switch the ports on and off via the web interface (IP of the rpi on port
 ---
 [NPM](https://www.npmjs.com/package/rassi)
 
+---
+Help us! Fork this project and work on this. We pull your fork to this when your changes are good.
+
+[Projectmanegment (TODO)](https://github.com/Sharkbyteprojects/RassI/projects/1?fullscreen=true)
 
 ---
 
