@@ -19,7 +19,7 @@ module.exports = function render(gpios){
         .join('')}
         </tbody>
         </table>
-        <hr><a href="gpio/raw#gpionames">RAW GPIO Data</a><br><a href="https://github.com/Sharkbyteprojects/RassI" target="_blanc">RassI on Github</a>
+        <hr><a href="gpio/raw#gpionames">RAW GPIO Data</a><br><a href="https://github.com/Sharkbyteprojects/RassI" target="_blanc">RassI on Github</a><br><a href="https://gitter.im/Sharkbyteprojects/RassI?utm_source=share-link&utm_medium=link&utm_campaign=share-link" target="_blanc">Devloper Chat</a>
     </body>
     </html>`;
 };
