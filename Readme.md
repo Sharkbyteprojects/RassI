@@ -2,7 +2,7 @@
 # Rassi
 ## Raspberry Pi for Starters!
 
-This code can you run on raspberry pi
+This code can you only run on raspberry pi.
 You can switch the ports on and off via the web interface (IP of the rpi on port 80) from any device!
 
 ---
