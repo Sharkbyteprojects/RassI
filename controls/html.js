@@ -12,10 +12,10 @@ module.exports = function render(gpios){
     <body>
         <h1><img src="RASSI LOGO WITH RPI.svg" height="100"> RassI GPIO Control</h1>
         <table>
-        <thead><tr><th>GPIO Pin Number</th><th>Active</th><th>Switches</th></tr><thead>
+        <thead><tr><th>GPIO Pin Number</th><th>Switches</th></tr><thead>
         <tbody>
         ${gpios
-        .map(gpios => `<tr><td>${gpios.id}</td><td>${gpios.active}</td><td><a href="/onoff/${gpios.id}"><button>Switch GPIO</button></a></td></tr>`)
+        .map(gpios => `<tr><td>${gpios.id}</td><td><a href="/gpio/onoff/${gpios.id}"><button>Switch GPIO</button></a></td></tr>`)
         .join('')}
         </tbody>
         </table>
